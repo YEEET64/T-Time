@@ -1,4 +1,5 @@
-html {
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -50,6 +51,7 @@ body{
 #top, #geschichte, #standorte, #merch, #oeffnungszeiten {
     scroll-margin-top: 92px;
 }
+
 
 .navButton {
     margin: 0px 0px 0px 20px;
@@ -159,9 +161,7 @@ body{
 
 .merchKarte {
     display: inline-block;
-    background-color: #ffffff;
     padding: 20px;
-    border-radius: 20px;
 }
 
 .merchKarte img {
