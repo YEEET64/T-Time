@@ -1,0 +1,225 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px 0px 0px 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    color: #ffffff;
+    
+}
+
+.boxUnten{
+    display:flexbox;
+}
+
+.divheader {
+    background-color: #48a75d;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navLinks {
+    display: flex;
+    gap: 30px;
+}
+
+.navLinks a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.navLinks a:hover {
+    text-decoration: underline;
+}
+
+#top, #geschichte, #standorte, #merch, #oeffnungszeiten {
+    scroll-margin-top: 92px;
+}
+
+.navButton {
+    margin: 0px 0px 0px 20px;
+    padding: 5px 0px 5px 0px;
+}
+
+.divbanner {
+    background-color: #3E4A51;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.divbanner img {
+    display: block;
+    width: 90%;
+    max-width: 1600px;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke: 10px #000000;
+    paint-order: stroke fill;
+}
+
+.divkommentar {
+    background-color: #3E4A51;
+    padding: 20px 10% 40px 10%;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.6;
+    padding: 400px 400px 300px 400px;
+}
+
+.divstandort {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 80px 10%;
+    background-color: #f4f1ea;
+    color: #000000;
+    padding-top: 300px;
+    padding-bottom: 400px;
+}
+
+.standText {
+    flex: 1;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.standText h1 {
+    color: #48a75d;
+    margin-top: 0;
+}
+
+.standText ul {
+    padding-left: 20px;
+}
+
+.standText li {
+    margin-bottom: 8px;
+}
+
+.standKarte {
+    flex: 1;
+}
+
+.standKarte img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+.divmerch {
+    background-color: #3E4A51;
+    text-align: center;
+    padding: 100px 10%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.divmerch h1 {
+    font-size: 48px;
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.merchTeaser {
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+.merchKarte {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.merchKarte img {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+}
+
+.merchHinweis {
+    margin-top: 40px;
+    font-size: 18px;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.footer {
+    background-color: #48a75d;
+    padding: 40px 10% 20px 10%;
+}
+
+.footerSpalten {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footerSpalte h3 {
+    margin-top: 0;
+}
+
+.footerSpalte p {
+    line-height: 1.8;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    text-align: center;
+    margin: 30px 0 0 0;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+}
+
+@media (max-width: 800px) {
+    .footerSpalten {
+        flex-direction: column;
+    }
+
+    .divstandort {
+        flex-direction: column;
+    }
+}
+
