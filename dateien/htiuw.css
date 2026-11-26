@@ -1,0 +1,11 @@
+.KButton,
+.ZButton {
+    padding: 12px 40px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.KButton {
+    margin-left: 40px;
+    margin-right: 15px;
+}

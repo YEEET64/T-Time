@@ -1,0 +1,67 @@
+body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+
+        .logo {
+            font-size: 90px;
+            font-weight: bold;
+            letter-spacing: -3px;
+            margin: 0 0 30px 0;
+        }
+
+        .blau { color: #4285F4; }
+        .rot { color: #EA4335; }
+        .gelb { color: #FBBC05; }
+        .gruen { color: #34A853; }
+
+        .suche {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+            width: 100%;
+        }
+
+        .suche input {
+            width: 580px;
+            max-width: 90%;
+            padding: 13px 20px;
+            font-size: 16px;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            outline: none;
+        }
+
+        .suche input:hover,
+        .suche input:focus {
+            box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+            border-color: transparent;
+        }
+
+        .suche button {
+            padding: 10px 20px;
+            font-size: 14px;
+            color: #3c4043;
+            background-color: #f8f9fa;
+            border: 1px solid #f8f9fa;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .suche button:hover {
+            border-color: #dadce0;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        }
+.nummer {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 25px;
+}

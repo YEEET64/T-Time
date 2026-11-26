@@ -1,0 +1,32 @@
+body {
+    background-color: #133c5a;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#cookie {
+    width: 500px;
+    max-width: 80vw;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.1s;
+}
+
+#cookie:hover {
+    transform: scale(1.05);
+}
+
+#cookie:active {
+    transform: scale(0.95);
+}
+
+h1{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}

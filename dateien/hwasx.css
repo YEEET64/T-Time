@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+#gif {
+    width:  80vw;
+}
+
+.text {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 20%;
+    left: 47%;
+}
+
+#zahl {
+    top: 20%;
+    left: 50%;
+}
+
+#zurueck {
+    position: absolute;
+    color: red;
+    font-size: 100px;
+    top: 60%;
+    left: 33%;
+}

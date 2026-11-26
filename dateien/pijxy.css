@@ -1,0 +1,36 @@
+
+body {
+    background-color: #144274;
+    margin: 0;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    font-size: 25px;
+}
+
+.links {
+    display: flex;
+    gap: 200px;
+}
+
+img {
+    width: 400px;
+    max-width: 90%;
+}
+
+#link1 {
+    color: rgb(0, 209, 0);
+}
+
+#link2, #link3 {
+    color: rgb(209, 0, 0);
+}

@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    font-family: "Montserrat", sans-serif;
+    background-color: #ffffff;
+}
+
+.seite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff7e1;
+}
+
+.seite img {
+    width: 70%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.seite a {
+    width: 100%;
+}
+
+.mitte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.mitte h1 {
+    color: #10f7ff;
+    font-size: 40px;
+}
+
+.knoepfe {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+    max-width: 100%;
+   
+}
+
+.knopf {
+    padding: 15px;
+    background-color: #e29b00;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+}

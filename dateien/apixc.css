@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+
+}
+.weiss {
+    color:white;
+}
+
+a, p {
+    font-size: 20px;
+    position: absolute;
+    color: black;
+    text-decoration: none;
+}
+
+#link1 {
+    top: 30%;
+    left: 20%;
+}
+
+#link2 {
+    top: 90%;
+    left: 10%;
+}
+
+#text1 {
+    top: 83%;
+    left: 12%;
+}
+
+#text2 {
+    top: 39%;
+    left: 9%;
+}
+
+#text3 {
+    top: 66%;
+    left: 74%;
+}
